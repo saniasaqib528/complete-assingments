@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    background: rgb(246,92,15);
+    background: linear-gradient(90deg, rgba(246,92,15,1) 0%, rgba(205,223,53,0.9389880952380952) 52%, rgba(244,42,42,1) 81%);display: flex;
+justify-self: center;
+align-items: center;
+}
+.main{
+    height: 400px;
+    width: 600px;
+    background: rgb(28,26,25);
+    background: linear-gradient(90deg, rgba(28,26,25,1) 0%, rgba(42,244,235,1) 62%, rgba(2,11,11,1) 98%);    border-radius: 20px;
+    margin-top: 80px;
+    box-shadow: 4px 6px 3px grey;
+}
+.picture{
+    position: absolute;
+    top: 70px;
+    height: 250px;
+    width: 300px;
+    left: 300px;
+    margin-top: 40px;
+}
+.child{
+    margin-right: 70px;
+    margin-top: 80px;
+    float: right;
+}
+button{
+    padding: 15px 30px;
+    background-color: rgb(121, 252, 138);
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    font-family: algerian;
+    font-size: 20px;
+    border-radius: 5px;
+    
+}
+h3{
+    text-transform: uppercase;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    width: 300px;
+}
+h1{
+    margin-top: 6px;
+    margin-bottom: 25px;
+    word-spacing: 30px;
+    text-decoration: underline double black;
+}
+p{
+    font-size: 20px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding-right: 10px;
+    width: 300px;
+    
+}
+.a::first-letter{
+    font-size: 2em;
+    text-shadow: 2px 2px 2px orange;
+    font-weight: 500;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    margin-top: 40px;
+    border: solid 7px;
+    border-radius: 25px;
+}
